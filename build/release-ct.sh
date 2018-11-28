@@ -15,9 +15,6 @@ then
   # build
   VERSION=$VERSION npm run dist
 
-  # publish theme
-  echo "Releasing theme-chalk $VERSION ..."
-
   # commit
   git add -A
   git commit -m "[build] $VERSION"
